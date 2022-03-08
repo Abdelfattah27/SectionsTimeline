@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Document</title>
+</head>
+<style>
+    tr>td {
+        text-align: center;
+        font-size: larger;
+        font-weight: bolder;
+    }
+</style>
+
+<body>
+    <div style="text-align: center; margin: 50px;">
+        <select class="form-select  form-select-lg mb-3" id="sel">
+            <caption>select section</caption>
+        </select>
+        <button onclick="hello()" style="width: 250px; height: 50px;margin: 30px;" class="btn btn-primary" type="button">Go</button>
+    </div>
+    <div style="text-align: center;margin: 50px;">
+        <h1 id="hhh"></h1>
+    </div>
+    <table class="table table-striped table-bordered" style="margin: 30px; margin-right: 30px;">
+        <thead class="thead-dark">
+            <tr id="hee">
+                <td></td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="days">السبت</td>
+                <td class="data" id="sat1"></td>
+                <td class="data" id="sat2"></td>
+                <td class="data" id="sat3"></td>
+                <td class="data" id="sat4"></td>
+                <td class="data" id="sat5"></td>
+                <td class="data" id="sat6"></td>
+            </tr>
+            <tr>
+                <td class="days">الاحد</td>
+                <td colspan="5">اجـــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــازه</td>
+
+            </tr>
+            <tr>
+                <td class="days"> الاثنين</td>
+                <td class="data" id="mon1"></td>
+                <td class="data" id="mon2"></td>
+                <td class="data" id="mon3"></td>
+                <td class="data" id="mon4"></td>
+                <td class="data" id="mon5"></td>
+                <td class="data" id="mon6"></td>
+            </tr>
+            <tr>
+                <td class="days">الثلاثاء</td>
+                <td class="data" id="tus1"></td>
+                <td class="data" id="tus2"></td>
+                <td class="data" id="tus3"></td>
+                <td class="data" id="tus4"></td>
+                <td class="data" id="tus5"> </td>
+                <td class="data" id="tus6"> </td>
+            </tr>
+            <tr>
+                <td class="days">الاربعاء</td>
+                <td class="data" id="wend1"></td>
+                <td class="data" id="wend2"></td>
+                <td class="data" id="wend3"></td>
+                <td class="data" id="wend4"></td>
+                <td class="data" id="wend5"></td>
+                <td class="data" id="wend6"></td>
+            </tr>
+            <tr>
+                <td class="days">الخميس</td>
+                <td class="data" id="thrus1"></td>
+                <td class="data" id="thrus2" colspan="2"> </td>
+                <td class="data" id="thrus3"></td>
+                <td class="data" id="thrus4"></td>
+                <td class="data" id="thrus5"></td>
+            </tr>
+        </tbody>
+    </table>
+    <script src="script.js">
+    </script>
+</body>
+
+</html>
